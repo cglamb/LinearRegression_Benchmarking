@@ -7,6 +7,9 @@ This project tests linear regression performed in Python, R, and Go for consiste
 
 ## Results - Consistency
 Consistency was measured by ensuring each programming language produced the same linear fit on each of four data sets. We present the intercept and slope for each dataset and programming language below. The linear fit was found to be identical across all three languages.
+We note that the statistics library used in the golang test (/montanaflynn/stats) did not (as far as this author can discern) have automatic reporting on line fitting.
+The author built reporiting to generate the intercept and slope coefficients above and ran this reporting along with the regression in the benchmarked script.
+We believe this additional reporting did not negatively impact runtime, as seperate testing that excluded the coeffienct calculations produced very similiar runtimes to those shown below.
 
 |                | Data Set 1        | Data Set 2        | Data Set 3        | Data Set 4        |
 | -------------- | ----------------- | ----------------- | ----------------- | ----------------- |

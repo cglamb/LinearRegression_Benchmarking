@@ -15,7 +15,7 @@ Consistency was measured by ensuring each programming language produced the same
 | **Go**         | 3.0001, 0.5001     | 3.0009, 0.5000     | 3.0025, 0.4997     | 3.0017, 0.4999     |
 
 ## Results - Benchmarking
-To measure the speed at which the file executed, each file was run 10 times. The console was cleared between each execution to ensure no warmstarting. Results per trial are shown below. Times are shown in seconds.
+To measure the speed at which the files executed, each file was run 10 times. The console was cleared between each execution to ensure no warmstarting. Results per trial are shown below. Times are shown in seconds.
 
 | Trial | .py  | .r   | .go  |
 | ----- | ---- | ---- | ---- |

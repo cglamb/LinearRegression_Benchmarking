@@ -51,3 +51,25 @@ Linear regressions were modeled on four different datasets from Anscombe (1973).
  'y3': [7.46, 6.77, 12.74, 7.11, 7.81, 8.84, 6.08, 5.39, 8.15, 6.42, 5.73],
  'y4': [6.58, 5.76, 7.71, 8.84, 8.47, 7.04, 5.25, 12.5, 5.56, 7.91, 6.89]}
 
+### Explanation of Files
+
+- **linear_regresssion.py:** Linear regression performed in Python.
+- **linear_regression.r:** Linear regression performed in R.
+- **linear_regression.go:** Linear regression performed in Go. Uses "github.com/montanaflynn/stats" statistic package at [https://pkg.go.dev/github.com/montanaflynn/stats](https://pkg.go.dev/github.com/montanaflynn/stats)
+- **linear_regression_test.go:** Benchmarking for linear_regression.go
+
+**/Log/**
+- **PY LOG.txt:** Console output from running linear_regression.py
+- **R LOG.txt:** Console output from running linear_regression.r
+- **GO Log.txt:** Console output for running linear_regression.go
+
+### Hardware
+
+All files were executed locally on the same hardware. The hardware used a 13th Gen Intel(R) Core(TM) i5-13400F, 2500 Mhz, 10 Core(s), 16 Logical Processor(s) with 16.0GB of physical memory.
+
+### Environments
+
+- The Python code was executed in Spyder (Python 3.10.9 64-bit | Qt 5.15.2 | PyQt5 5.15.10 | Windows 10).
+- The R script was executed in RStudio (Version 1.1.456).
+- The Go script was executed in Visual Code Studio (Version 1.85.1).
+

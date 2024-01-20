@@ -3,7 +3,7 @@ Email: charlamb@gmail.com
 Github address: [https://github.com/cglamb/LinearRegression_Benchmarking](https://github.com/cglamb/LinearRegression_Benchmarking)
 
 ## Introduction
-This project tests linear regression performed in Python, R, and Go for consistency and performance. We found all three programming languages produced consistent results. R had the shortest run-time, while Golang had the longest runtime. Results and a management recommendation are presented in the section immediately below. The balance of this README discusses experiment design and the files contained in this GitHub.
+This project tests linear regression performed in Python, R, and Go for consistency and performance. We found all three programming languages produced consistent results. R had the shortest run-time, while Golang had the longest runtime. Results and a management recommendation are presented in the sections immediately below. The balance of this README discusses experiment design and the files contained in this GitHub.
 
 ## Results - Consistency
 Consistency was measured by ensuring each programming language produced the same linear fit on each of four data sets. We present the intercept and slope for each dataset and programming language below. The linear fit was found to be identical across all three languages.
